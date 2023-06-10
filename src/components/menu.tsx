@@ -3,7 +3,7 @@ import React from 'react'
 export default function Menu() {
   return (
     <div className='relative'>
-      <div className='fixed left-20 bottom-0 flex flex-col items-center gap-4'>
+      <div className='fixed left-16 bottom-0 flex flex-col items-center gap-4'>
         <div className='flex flex-col gap-4 mb-3'>
           <a href="https://github.com/champloo30" target="_blank" rel="noopener noreferrer">
             <svg className='fill-secondary dark:fill-dark_secondary w-6 hover:fill-title dark:hover:fill-dark_title hover:-translate-y-2 transition linear duration-500' viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@ export default function Menu() {
         </div>
         <div className="h-32 w-0.5 bg-secondary dark:bg-dark_secondary "></div>
       </div>
-      <div className='fixed right-0 dark:right-6 bottom-0 flex flex-col items-center gap-4'>
+      <div className='fixed right-0 dark:right-2 bottom-0 flex flex-col items-center gap-4'>
         <a href="mailto:djld30@gmail.com"><p className='rotate-90 -translate-y-20 dark:-translate-y-16 text-secondary dark:text-dark_secondary font-light_mono dark:font-dark_mono hover:text-title dark:hover:text-dark_title hover:-translate-y-24 dark:hover:-translate-y-20 transition linear duration-500'>djld30@gmail.com</p></a>
         <div className="h-32 w-0.5 bg-secondary dark:bg-dark_secondary"></div>
       </div>
