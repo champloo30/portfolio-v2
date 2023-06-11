@@ -31,8 +31,8 @@ const space_mono = Space_Mono({
 })
 
 export const metadata = {
-  title: 'DJLDev Portfolio v2',
-  description: 'Version 2 of the portfolio for Dalyn J. L. Dunn.',
+  title: 'DJLDev',
+  description: 'Version 2 of the portfolio for Dalyn J. L. Dunn.'
 }
 
 export default function RootLayout({

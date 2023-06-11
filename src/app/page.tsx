@@ -1,7 +1,9 @@
 import Menu from "@/components/menu"
 import Navbar from "@/components/navbar"
-import HomePage from "@/components/homepage"
-import AboutPage from "@/components/aboutpage"
+import HomePage from "@/pages/HomePage"
+import AboutPage from "@/pages/AboutPage"
+import ProjectsPage from "@/pages/ProjectsPage"
+import BottomNav from "@/components/bottomNav"
 
 export default function Home() {
 
@@ -10,10 +12,12 @@ export default function Home() {
       <header>
         <Navbar />
         <Menu />
+        <BottomNav />
       </header>
-      <main className="container mx-48">
+      <main className="container">
         <HomePage />
         <AboutPage />
+        <ProjectsPage />
       </main>
     </>
   )
