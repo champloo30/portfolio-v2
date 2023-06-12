@@ -1,7 +1,12 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import { motion, useScroll, useAnimationControls } from "framer-motion"
+import { motion, Variants, useScroll, useAnimationControls } from "framer-motion"
+
+const ScrollToTopVariants: Variants = {
+  hide: { opacity: 0, transition: {duration: 0.5} },
+  show: { opacity: 1, transition: {duration: 0.5} },
+};
 
 export default function ScrollToTop() {
   const { scrollYProgress } = useScroll()
@@ -10,18 +15,13 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     return scrollYProgress.on('change', (latestValue) => {
-      if (latestValue > 0.5) {
+      if (latestValue > 0.25) {
         controls.start('show');
       } else {
         controls.start('hide');
       }
     });
   });
-
-  const ScrollToTopVariants = {
-    hide: { opacity: 0, transition: {duration: 0.5} },
-    show: { opacity: 1, transition: {duration: 0.5} },
-  };
 
   function toTop() {
     if (!isBrowser()) return
