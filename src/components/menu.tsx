@@ -4,7 +4,7 @@ import ScrollToTop from './scrollToTop'
 
 export default function Menu() {
   return (
-    <div className='relative'>
+    <div className='hidden lg:block relative'>
       <div className='fixed z-10 left-14 bottom-0 flex flex-col items-center gap-4'>
         <div className='flex flex-col gap-4 mb-3'>
           <ScrollToTop />

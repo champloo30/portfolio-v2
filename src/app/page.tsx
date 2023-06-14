@@ -4,6 +4,7 @@ import HomePage from "@/pages/HomePage"
 import AboutPage from "@/pages/AboutPage"
 import ProjectsPage from "@/pages/ProjectsPage"
 import BottomNav from "@/components/bottomNav"
+import ContactPage from "@/pages/ContactPage"
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
         <HomePage />
         <AboutPage />
         <ProjectsPage />
+        <ContactPage />
       </main>
     </>
   )

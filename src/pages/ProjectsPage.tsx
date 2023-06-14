@@ -7,26 +7,26 @@ import YTTC from '../assets/yttc-screenshot.png'
 
 export default function ProjectsPage() {
   return (
-    <div id='projects' className='h-full flex flex-col gap-12 items-start justify-center h-screen font-light_display dark:font-dark_display mx-48 pt-20 pb-24'>
-      <h1 className="text-5xl font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary">Some Things I’ve Made</h1>
-      <div id='projects-container' className='flex flex-col gap-32'>
-        <div id='project-1' className='flex flex-row justify-center items-center'>
-          <div className='flex justify-center items-center h-[254px] w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+    <div id='projects' className='h-[150rem] lg:h-[115rem] flex flex-col gap-16 lg:gap-12 items-start justify-center h-screen font-light_display dark:font-dark_display mx-8 lg:mx-48 py-24'>
+      <h1 className="text-3xl lg:text-5xl font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary mt-28">Some Things I’ve Made</h1>
+      <div className='flex flex-col gap-16 lg:gap-32'>
+        <div className='flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary/60 w-[22rem] p-4 rounded'>
+          <div className='flex justify-center items-center lg:h-[254px] lg:w-[32rem] lg:bg-title/50 lg:dark:bg-dark_title/50 rounded'>
             <Image 
-              className='opacity-50 hover:opacity-100 rounded transition linear duration-300'
+              className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300'
               src={PKMO}
               width={512}
               height={420}
               alt='Peace Kingdom Ministries of Ohio'
             />
           </div>
-          <div className='flex flex-col justify-center items-end w-96 text-right gap-4'>
+          <div className='flex flex-col justify-center items-start lg:items-end text-left lg:text-right gap-4'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #1</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">Peace Kingdom Ministries of Ohio</a>
             </h2>
-            <div className='relative w-[27rem] px-4 py-4 bg-tertiary dark:bg-dark_tertiary rounded'>
-              <p className='text-right text-primary dark:text-dark_primary'>A multi-page dynamic website for Peace Kingdom Ministries of Ohio. A non-demoninational church, regularly updated each month with new content.</p>
+            <div className='relative lg:w-[27rem lg:p-4 lg:bg-tertiary lg:dark:bg-dark_tertiary rounded'>
+              <p className='text-left lg:text-right text-primary dark:text-dark_primary'>A multi-page dynamic website for Peace Kingdom Ministries of Ohio. A non-demoninational church, regularly updated each month with new content.</p>
             </div>
             <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
               <li>React</li>
@@ -45,16 +45,16 @@ export default function ProjectsPage() {
             </div>
           </div>
         </div>
-        <div id='project-2' className='flex flex-row justify-center items-center'>
-          <div className='flex flex-col justify-center items-start w-96 text-left gap-4'>
+        <div id='project-2' className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4 bg-tertiary/60 dark:bg-dark_tertiary p-4 w-[22rem] rounded'>
+          <div className='flex flex-col justify-center items-start text-left gap-4'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #2</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">Productivia App</a>
             </h2>
-            <div className='relative z-10 w-[27rem] px-4 py-4 bg-tertiary dark:bg-dark_tertiary rounded'>
-              <p className='text-left text-primary dark:text-dark_primary'>This is a productivity app called made using the MERN stack. This is my first fullstack application that included multiple APIs, authentication, and much more.</p>
+            <div className='relative z-10 lg:w-[27rem] lg:p-4 lg:bg-tertiary dark:bg-dark_tertiary rounded'>
+              <p className='text-left text-primary dark:text-dark_primary'>This is a productivity app called made using the MERN stack. This is my first fullstack application that includes multiple APIs, authentication, and much more.</p>
             </div>
-            <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
+            <ul className='flex flex-row flex-wrap gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
               <li>React</li>
               <li>Sass</li>
               <li>Express</li>
@@ -72,9 +72,9 @@ export default function ProjectsPage() {
               </a>
             </div>
           </div>
-          <div className='flex justify-center items-center h-[240px] w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+          <div className='flex justify-center items-center lg:h-[254px] lg:w-[22rem] lgw-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
             <Image 
-              className='opacity-50 hover:opacity-100 rounded transition linear duration-300'
+              className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300'
               src={Productivia}
               width={512}
               height={440}
@@ -82,23 +82,23 @@ export default function ProjectsPage() {
             />
           </div>
         </div>
-        <div id='project-3' className='flex flex-row justify-center items-center'>
-          <div className='flex justify-center items-center h-[285px] w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+        <div id='project-3' className='flex flex-col lg:flex-row justify-center items-center w-[22rem] bg-tertiary/60 dark:bg-dark_tertiary/60 p-4 gap-4 rounded'>
+          <div className='flex justify-center items-center lg:h-[254px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
             <Image 
-              className='opacity-50 hover:opacity-100 rounded transition linear duration-300'
+              className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300'
               src={DJLDev}
               width={512}
               height={200}
               alt='DJLDev'
             />
           </div>
-          <div className='flex flex-col justify-center items-end w-96 text-right gap-4'>
+          <div className='flex flex-col justify-center items-start lg:items-end text-right gap-4'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #3</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">DJLDEV.com (v1)</a>
             </h2>
-            <div className='relative w-[27rem] px-4 py-4 bg-tertiary dark:bg-dark_tertiary rounded'>
-              <p className='text-right text-primary dark:text-dark_primary'>This is the first version of my personal portfolio website using React.</p>
+            <div className='relative lg:w-[27rem] lg:p-4 lg:bg-tertiary lg:dark:bg-dark_tertiary rounded'>
+              <p className='text-left lg:text-right text-primary dark:text-dark_primary'>This is the first version of my personal portfolio website using React.</p>
             </div>
             <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
               <li>React</li>
@@ -117,13 +117,13 @@ export default function ProjectsPage() {
             </div>
           </div>
         </div>
-        <div id='project-4' className='flex flex-row justify-center items-center'>
-          <div className='flex flex-col justify-center items-start w-96 text-left gap-4'>
+        <div id='project-4' className='flex flex-col-reverse lg:flex-row justify-center items-center bg-tertiary/60 dark:bg-dark_tertiary/60 p-4 w-[22rem] gap-4 rounded'>
+          <div className='flex flex-col justify-center items-start text-left gap-4'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #4</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">Your Ticket To College, LLC</a>
             </h2>
-            <div className='relative z-10 w-[27rem] px-4 py-4 bg-tertiary dark:bg-dark_tertiary rounded'>
+            <div className='relative z-10 lg:w-[27rem] lg:p-4 lg:bg-tertiary lg:dark:bg-dark_tertiary rounded'>
               <p className='text-left text-primary dark:text-dark_primary'>A multi-page dynamic website redesign for Your Ticket To College, LLC. A reputable tutoring service for high school students looking to take the SAT and ACT exams.</p>
             </div>
             <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -135,9 +135,9 @@ export default function ProjectsPage() {
               </a>
             </div>
           </div>
-          <div className='flex justify-center items-center h-[250px] w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+          <div className='flex justify-center items-center lg:h-[254px] lgw-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
             <Image 
-              className='opacity-50 hover:opacity-100 rounded transition linear duration-300'
+              className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300'
               src={YTTC}
               width={512}
               height={420}
