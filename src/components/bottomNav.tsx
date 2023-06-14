@@ -15,7 +15,7 @@ export default function BottomNav() {
 
   useEffect(() => {
     return scrollYProgress.on('change', (latestValue) => {
-      if (latestValue > 0.25) {
+      if (latestValue > 0.1) {
         controls.start('show');
       } else {
         controls.start('hide');

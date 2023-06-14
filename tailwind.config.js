@@ -26,6 +26,9 @@ module.exports = {
         light: '#FAF8F1',
         dark: '#081B2D',
       },
+      screens: {
+        'lg-tab': '900px',
+      },
     },
   },
   plugins: [],
