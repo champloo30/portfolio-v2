@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div id='about' className='h-[76rem] md:h-screen flex flex-col lg:flex-row justify-center items-center h-screen font-light_display dark:font-dark_display mx-8 md:mx-16 lg:mx-48 md:gap-4 lg:gap-0'>
       <div className='flex lg:flex-1 flex-col justify-center items-start gap-2'>
-        <h1 className="text-3xl lg:text-5xl font-light_mono dark:font-dark_mono text-title dark:text-dark_title mt-0">About Me</h1>
+        <h1 className="text-3xl lg:text-5xl font-light_mono dark:font-dark_mono text-title dark:text-dark_title mt-24 md:mt-0">About Me</h1>
         <p className='w-80 md:w-full lg:w-5/6 text-primary dark:text-dark_primary'>
           Hello! My name is Dalyn and I enjoy creating things that reside on the internet. My journey in Web Development began early 2021 when I finally decided to listen to a friend and try my hand at a career in Computer Science. FreeCodeCamp’s Responsive Web Developer course is what was recommended for me to start and I’ve never looked back!
         </p>
