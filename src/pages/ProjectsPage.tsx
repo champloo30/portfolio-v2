@@ -95,7 +95,7 @@ export default function ProjectsPage() {
           <div className='flex lg:flex-1 flex-col justify-center items-start lg:items-end text-right gap-4 md:w-full lg:w-96'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #3</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
-              <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">DJLDEV.com (v1)</a>
+              <a href="http://v1.djldev.com" target="_blank" rel="noopener noreferrer">DJLDEV.com (v1)</a>
             </h2>
             <div className='relative lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded'>
               <p className='text-left lg:text-right text-primary dark:text-dark_primary'>This is the first version of my personal portfolio website using React.</p>
