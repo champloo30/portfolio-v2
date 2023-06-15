@@ -7,7 +7,7 @@ import YTTC from '../assets/yttc-screenshot.png'
 
 export default function ProjectsPage() {
   return (
-    <div id='projects' className='h-[155rem] md:h-[184rem] lg:h-[115rem] flex flex-col gap-16 lg:gap-12 items-start justify-center font-light_display dark:font-dark_display mx-8 md:mx-16 lg:mx-48 py-24'>
+    <div id='projects' className='h-[155rem] md:h-[184rem] lg:h-[115rem] flex flex-col gap-16 lg:gap-12 items-start justify-center font-light_display dark:font-dark_display mx-8 md:mx-16 lg:mx-48 py-24 mt-64 md:mt-0'>
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary">Some Things I’ve Made</h1>
       <div className='flex flex-col gap-16 lg:gap-32'>
         <div className='flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit w-[22rem] md:w-full p-4 lg:p-0 rounded'>
@@ -92,7 +92,7 @@ export default function ProjectsPage() {
               alt='DJLDev'
             />
           </div>
-          <div className='flex lg:flex-1 flex-col justify-center items-start lg:items-end text-right gap-4 md:w-full lg:w-96 mt-64 md:mt-0'>
+          <div className='flex lg:flex-1 flex-col justify-center items-start lg:items-end text-right gap-4 md:w-full lg:w-96'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #3</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://v1.djldev.com" target="_blank" rel="noopener noreferrer">DJLDEV.com (v1)</a>
