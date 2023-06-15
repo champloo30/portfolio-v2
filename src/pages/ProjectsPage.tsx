@@ -92,7 +92,7 @@ export default function ProjectsPage() {
               alt='DJLDev'
             />
           </div>
-          <div className='flex lg:flex-1 flex-col justify-center items-start lg:items-end text-right gap-4 md:w-full lg:w-96'>
+          <div className='flex lg:flex-1 flex-col justify-center items-start lg:items-end text-right gap-4 md:w-full lg:w-96 mt-48 md:mt-0'>
             <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #3</h3>
             <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://v1.djldev.com" target="_blank" rel="noopener noreferrer">DJLDEV.com (v1)</a>
