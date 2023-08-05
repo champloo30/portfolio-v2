@@ -28,6 +28,7 @@ module.exports = {
       },
       screens: {
         'lg-tab': '900px',
+        'xs': '400px',
       },
     },
   },

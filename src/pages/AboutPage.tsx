@@ -4,7 +4,7 @@ import DJLD from '../assets/DJLD.jpg'
 
 export default function AboutPage() {
   return (
-    <div id='about' className='h-[75rem] md:h-screen flex flex-col lg:flex-row justify-center items-center h-screen font-light_display dark:font-dark_display mx-8 md:mx-16 lg:mx-48 md:gap-4 lg:gap-0 mt-64 md:mt-0'>
+    <div id='about' className='h-[50rem] md:h-screen flex flex-col lg:flex-row justify-center items-center font-light_display dark:font-dark_display mx-8 md:mx-16 lg:mx-48 md:gap-4 lg:gap-0 mt-64 md:mt-0'>
       <div className='flex lg:flex-1 flex-col justify-center items-start gap-2'>
         <h1 className="text-3xl lg:text-5xl font-light_mono dark:font-dark_mono text-title dark:text-dark_title mt-96 md:mt-0">About Me</h1>
         <p className='w-80 md:w-full lg:w-5/6 text-primary dark:text-dark_primary'>
