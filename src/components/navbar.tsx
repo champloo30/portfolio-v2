@@ -40,7 +40,7 @@ export default function Navbar() {
           <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#projects'>Projects</Link></li>
           <li className="cursor-not-allowed hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300">Freelance</li>
           <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#contact'>Contact</Link></li>
-          <a href='/DJLD_Resume.pdf' target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a>
+          <a href='/DJLD_Resume_24.pdf' target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a>
         </ul>
       </div>
       <div className='h-20 lg:hidden mr-12 md:mr-20 lg-tab:mr-[5.5rem] flex justify-end items-center'>
@@ -58,7 +58,7 @@ export default function Navbar() {
             <li onClick={() => setIsOpen(false)}><Link href='/#projects'>Projects</Link></li>
             <li onClick={() => setIsOpen(false)}>Freelance</li>
             <li onClick={() => setIsOpen(false)}><Link href='/#contact'>Contact</Link></li>
-            <li><a href="/DJLD_Resume.pdf" target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a></li>
+            <li><a href="/DJLD_Resume_24.pdf" target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a></li>
             <ul className='flex flex-row gap-4 mt-8'>
               <li><ThemeToggler /></li>
               <li>

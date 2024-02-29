@@ -68,7 +68,7 @@ export default function BottomNav() {
                 <svg className='relative top-2 left-2 w-7 h-7 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M260-40q-24 0-42-18t-18-42v-760q0-24 18-42t42-18h440q24 0 42 18t18 42v760q0 24-18 42t-42 18H260Zm0-90v30h440v-30H260Zm0-60h440v-580H260v580Zm0-640h440v-30H260v30Zm0 0v-30 30Zm0 700v30-30Z"/></svg>
               </li>
             </Link>
-            <a href='/DJLD_Resume.pdf' target="_blank" rel="noopener noreferrer">
+            <a href='/DJLD_Resume_24.pdf' target="_blank" rel="noopener noreferrer">
               <li className='relative group w-12 h-12 rounded-full border-2 border-title dark:border-dark_title cursor-pointer hover:bg-title dark:hover:bg-dark_title transition linear duration-300' onClick={() => setIsOpen(false)}>
                 <span className='absolute font-light_display dark:font-dark_display text-title dark:text-dark_title opacity-0 group-hover:opacity-100 -top-8 transition linear duration-300'>Resume</span>
                 <svg className='relative top-1.5 left-1.5 w-8 h-8 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M277-279h275v-60H277v60Zm0-171h406v-60H277v60Zm0-171h406v-60H277v60Zm-97 501q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"/></svg>
