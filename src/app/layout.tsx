@@ -42,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${nanum_gothic.variable} ${share_tech.variable} ${playfair_display.variable} ${space_mono.variable} bg-light dark:bg-dark container px-8 text-light_display dark:text-dark_display w-screen`}>
+      <body className={`${nanum_gothic.variable} ${share_tech.variable} ${playfair_display.variable} ${space_mono.variable} w-screen font-light_display dark:font-dark_display bg-light dark:bg-dark container text-light_display dark:text-dark_display`}>
         <Providers>{children}</Providers>
       </body>
     </html>
