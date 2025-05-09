@@ -82,7 +82,7 @@ export default function Navbar() {
                     </a>
                   </li>
                 </ul>
-                <p className='absolute bottom-8 text-title dark:text-dark_title text-base md:text-lg'>Designed & Developed by DJLDev</p>
+                <p className='absolute bottom-8 text-title dark:text-dark_title text-base md:text-lg'><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Designed & Developed by Dunnovative Studios</a></p>
               </ul>
             </div>
           </div>

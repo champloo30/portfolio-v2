@@ -1,6 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-light_display: var(--font-playfair-display);
+  --font-light_mono: var(--font-space-mono);
+  --font-dark_display: var(--font-nanum-gothic);
+  --font-dark_mono: var(--font-share-tech-mono);
+
+  --color-title: #c58940;
+  --color-dark_title: #6dffe5;
+  --color-primary: #201402;
+  --color-dark_primary: #a9c0d6;
+  --color-secondary: #e5ba73;
+  --color-dark_secondary: #717c86;
+  --color-tertiary: #faeab1;
+  --color-dark_tertiary: #0a2c4b;
+  --color-light: #faf8f1;
+  --color-dark: #081b2d;
+
+  --breakpoint-lg-tab: 900px;
+  --breakpoint-xs: 400px;
+}
 
 html {
   scroll-behavior: smooth!important;

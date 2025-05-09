@@ -7,7 +7,7 @@ import Container from '@/components/container'
 
 export default function HomePage() {
   return (
-    <div id='/' className='h-screen w-screen flex justify-center items-center'>
+    <div id='/' className='h-dvh w-screen flex justify-center items-center'>
       <Container>
         <div className='h-full w-full flex flex-col justify-center items-start gap-4 md:gap-5 lg:gap-4'>
           <h3 className='text-xl md:text-2xl lg:text-3xl font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Hello, my name is</h3>

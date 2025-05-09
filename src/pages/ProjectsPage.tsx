@@ -11,15 +11,15 @@ import Container from '@/components/container'
 
 export default function ProjectsPage() {
   return (
-    <div id='projects' className='h-full md:h-[280rem] lg:h-[145rem] w-screen flex justify-center font-light_display dark:font-dark_display'>
+    <div id='projects' className='h-900 md:h-1120 lg:h-580 w-screen flex justify-center font-light_display dark:font-dark_display'>
       <Container>
         <div className='h-full w-full flex flex-col gap-16 lg:gap-12 items-center md:items-start lg:items-center justify-center lg:mt-32'>
     <h1 className="text-3xl md:text-4xl lg:text-5xl font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary">Some Things I&apos;ve Made</h1>
           <div className='flex flex-col gap-16 lg:gap-32'>
-            <div className='flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit w-[22rem] md:w-full p-4 lg:p-0 rounded'>
-              <div className='flex justify-center items-center lg:h-[254px] lg:w-[32rem] lg:bg-title/50 lg:dark:bg-dark_title/50 rounded'>
+            <div className='flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit w-88 md:w-full p-4 lg:p-0 rounded-sm'>
+              <div className='flex justify-center items-center lg:h-[254px] lg:w-lg lg:bg-title/50 lg:dark:bg-dark_title/50 rounded-sm'>
                 <Image 
-                  className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[46rem]'
+                  className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-184'
                   src={PKMO}
                   width={512}
                   height={420}
@@ -31,13 +31,11 @@ export default function ProjectsPage() {
                 <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                   <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">Peace Kingdom Ministries of Ohio</a>
                 </h2>
-                <div className='relative lg:w-[28rem] md:p-4 md:bg-light lg:bg-tertiary md:dark:bg-dark lg:dark:bg-dark_tertiary rounded'>
+                <div className='relative lg:w-md md:p-4 md:bg-light lg:bg-tertiary md:dark:bg-dark lg:dark:bg-dark_tertiary rounded-sm'>
                   <p className='text-left lg:text-right text-primary dark:text-dark_primary'>A multi-page dynamic website for Peace Kingdom Ministries of Ohio. A non-demoninational church, regularly updated each month with new content.</p>
                 </div>
                 <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
-                  <li>React</li>
-                  <li>Sass</li>
-                  <li>Firebase</li>
+                  <li>Wix</li>
                 </ul>
                 <div className='flex flex-row justify-center gap-4'>
                   <a href="https://github.com/champloo30/pkmoSite" target="_blank" rel="noopener noreferrer">
@@ -51,13 +49,13 @@ export default function ProjectsPage() {
                 </div>
               </div>
             </div>
-            <div id='project-2' className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-[22rem] md:w-full rounded'>
+            <div id='project-2' className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-88 md:w-full rounded-sm'>
               <div className='lg:w-96 flex lg:flex-1 flex-col justify-center items-start text-left gap-4'>
                 <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #2</h3>
                 <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                   <a href="https://kbm-cookoff.vercel.app/" target="_blank" rel="noopener noreferrer">KBM Cook Off</a>
                 </h2>
-                <div className='relative z-10 lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary dark:bg-dark_tertiary md:dark:bg-dark_tertiary rounded'>
+                <div className='relative z-10 lg:w-108 md:p-4 md:bg-light lg:bg-tertiary dark:bg-dark_tertiary md:dark:bg-dark_tertiary rounded-sm'>
                   <p className='text-left text-primary dark:text-dark_primary'>This is a single page website to promote the first cook off competition for a local church. It also allows users to sign up for the cook off as participants or judges through the integration of Google Forms.</p>
                 </div>
                 <ul className='flex flex-row flex-wrap gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -76,9 +74,9 @@ export default function ProjectsPage() {
                   </a>
                 </div>
               </div>
-              <div className='flex justify-center items-center lg:h-[320px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+              <div className='flex justify-center items-center lg:h-[320px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
                 <Image 
-                  className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[46rem]'
+                  className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-184'
                   src={Cookoff}
                   width={512}
                   height={200}
@@ -86,13 +84,13 @@ export default function ProjectsPage() {
                 />
               </div>
             </div>
-            {/* <div id='project-2' className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-[22rem] md:w-full rounded'>
+            {/* <div id='project-2' className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-88 md:w-full rounded-sm'>
               <div className='lg:w-96 flex lg:flex-1 flex-col justify-center items-start text-left gap-4'>
               <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #2</h3>
               <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
               <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">Productivia App</a>
               </h2>
-              <div className='relative z-10 lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary dark:bg-dark_tertiary md:dark:bg-dark_tertiary rounded'>
+              <div className='relative z-10 lg:w-108 md:p-4 md:bg-light lg:bg-tertiary dark:bg-dark_tertiary md:dark:bg-dark_tertiary rounded-sm'>
               <p className='text-left text-primary dark:text-dark_primary'>This is a productivity app called made using the MERN stack. This is my first fullstack application that includes multiple APIs, authentication, and much more.</p>
               </div>
               <ul className='flex flex-row flex-wrap gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -113,9 +111,9 @@ export default function ProjectsPage() {
               </a> 
               </div>
               </div>
-              <div className='flex justify-center items-center lg:h-[244px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+              <div className='flex justify-center items-center lg:h-[244px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
               <Image 
-              className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[46rem]'
+              className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-184'
               src={Productivia}
               width={512}
               height={440}
@@ -123,13 +121,13 @@ export default function ProjectsPage() {
               />
               </div>
               </div> */}
-              <div id='project-3' className='flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-[22rem] md:w-full rounded'>
+              <div id='project-3' className='flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-4 lg:gap-0 bg-tertiary/60 dark:bg-dark_tertiary lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-88 md:w-full rounded-sm'>
                 <div className='lg:w-96 flex lg:flex-1 flex-col justify-center items-start lg:items-end gap-4'>
                   <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #3</h3>
                   <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                     <a href="https://klad-baby-shower-rsvp.vercel.app/" target="_blank" rel="noopener noreferrer">Baby Shower RSVP</a>
                   </h2>
-                  <div className='relative z-10 lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary dark:bg-dark_tertiary md:dark:bg-dark_tertiary rounded'>
+                  <div className='relative z-10 lg:w-108 md:p-4 md:bg-light lg:bg-tertiary dark:bg-dark_tertiary md:dark:bg-dark_tertiary rounded-sm'>
                     <p className='text-left lg:text-right text-primary dark:text-dark_primary'>This is a single page website to promote a baby shower. It also allows users to RSVP through the integration of Google Forms.</p>
                   </div>
                   <ul className='flex flex-row flex-wrap gap-4 font-                                                                  light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -148,9 +146,9 @@ export default function ProjectsPage() {
                     </a>
                   </div>
                 </div>
-                <div className='flex justify-center items-center lg:h-[320px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+                <div className='flex justify-center items-center lg:h-[320px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
                   <Image 
-                    className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[46rem]'
+                    className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-184'
                     src={Baby}
                     width={512}
                     height={200}
@@ -158,10 +156,10 @@ export default function ProjectsPage() {
                   />
                 </div>
               </div>
-            <div id='project-4' className='flex flex-col lg:flex-row-reverse justify-center items-center w-[22rem] md:w-full bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit dark:lg:bg-inherit p-4 lg:p-0 gap-4 lg:gap-0 rounded'>
-              <div className='flex justify-center items-center lg:h-[264px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+            <div id='project-4' className='flex flex-col lg:flex-row-reverse justify-center items-center w-88 md:w-full bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit dark:lg:bg-inherit p-4 lg:p-0 gap-4 lg:gap-0 rounded-sm'>
+              <div className='flex justify-center items-center lg:h-[264px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
                 <Image 
-                  className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[45rem]'
+                  className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-180'
                   src={admin}
                   width={512}
                   height={200}
@@ -173,7 +171,7 @@ export default function ProjectsPage() {
                 <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                   <a href="https://ecommerce-admin-demo.vercel.app/" target="_blank" rel="noopener noreferrer">Ecommerce Admin Demo</a>
                 </h2>
-                <div className='relative lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded'>
+                <div className='relative lg:w-108 md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded-sm'>
                   <p className='text-left text-primary dark:text-dark_primary'>An ecommerce admin dashboard that allows a store owner to take full control of there site with this CMS. Adding products, billboards, even categories are all available to change.</p>
                 </div>
                 <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -193,13 +191,13 @@ export default function ProjectsPage() {
                 </div>
               </div>
             </div>
-            <div id='project-5' className='flex flex-col-reverse lg:flex-row-reverse justify-center items-center bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-[22rem] md:w-full gap-4 lg:gap-0 rounded'>
+            <div id='project-5' className='flex flex-col-reverse lg:flex-row-reverse justify-center items-center bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-88 md:w-full gap-4 lg:gap-0 rounded-sm'>
               <div className='lg:w-96 flex lg:flex-1 flex-col justify-center items-start lg:items-end text-left gap-4'>
                 <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #5</h3>
                 <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                   <a href="http://peacekmo.org" target="_blank" rel="noopener noreferrer">Ecommerce Store Demo</a>
                 </h2>
-                <div className='relative z-10 lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded'>
+                <div className='relative z-10 lg:w-108 md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded-sm'>
                   <p className='text-left lg:text-right text-primary dark:text-dark_primary'>A demo ecommerce store with all the bells and whistles, including a fully functional cart using the Stripe CLI.</p>
                 </div>
                 <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -219,9 +217,9 @@ export default function ProjectsPage() {
                   </a>
                 </div>
               </div>
-              <div className='flex justify-center items-center lg:h-[260px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+              <div className='flex justify-center items-center lg:h-[260px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
                 <Image 
-                  className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[46rem]'
+                  className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-184'
                   src={store}
                   width={512}
                   height={420}
@@ -229,10 +227,10 @@ export default function ProjectsPage() {
                 />
               </div>
             </div>
-            <div id='project-6' className='flex flex-col lg:flex-row-reverse justify-center items-center w-[22rem] md:w-full bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit dark:lg:bg-inherit p-4 lg:p-0 gap-4 lg:gap-0 rounded'>
-              <div className='flex justify-center items-center lg:h-[250px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+            <div id='project-6' className='flex flex-col lg:flex-row-reverse justify-center items-center w-88 md:w-full bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit dark:lg:bg-inherit p-4 lg:p-0 gap-4 lg:gap-0 rounded-sm'>
+              <div className='flex justify-center items-center lg:h-[250px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
                 <Image 
-                  className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[45rem]'
+                  className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-180'
                   src={YTTC}
                   width={512}
                   height={200}
@@ -244,7 +242,7 @@ export default function ProjectsPage() {
                 <h2 className='font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                   <a href="https://www.yttc-llc.com/" target="_blank" rel="noopener noreferrer">Your Ticket To College, LLC</a>
                 </h2>
-                <div className='relative lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded'>
+                <div className='relative lg:w-108 md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded-sm'>
                   <p className='text-left text-primary dark:text-dark_primary'>A multi-page dynamic website redesign for Your Ticket To College, LLC. A reputable tutoring service for high school students looking to take the SAT and ACT exams.</p>
                 </div>
                 <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -258,14 +256,14 @@ export default function ProjectsPage() {
                 </div>
               </div>
             </div>
-            {/* <div id='project-6' className='flex flex-col-reverse lg:flex-row justify-center items-center bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-[22rem] md:w-full gap-4 lg:gap-0 rounded'>
+            {/* <div id='project-6' className='flex flex-col-reverse lg:flex-row justify-center items-center bg-tertiary/60 dark:bg-dark_tertiary/60 lg:bg-inherit lg:dark:bg-inherit p-4 lg:p-0 w-88 md:w-full gap-4 lg:gap-0 rounded-sm'>
               <div className='lg:w-96 flex lg:flex-1 flex-col justify-center items-start text-left gap-4'>
                 <h3 className='font-light_mono dark:font-dark_mono text-title dark:text-dark_title'>Project #6</h3>
                 <h2 className='flex flex-col font-light_mono dark:font-dark_mono text-primary dark:text-dark_primary hover:text-title dark:hover:text-dark_title text-2xl transition linear duration-300'>
                   <a href="http://github.com/champloo30/tims" target="_blank" rel="noopener noreferrer">This Is My Story</a>
                   <span className='text-title dark:text-dark_title text-base'>In Progress...</span>
                 </h2>
-                <div className='relative z-10 lg:w-[27rem] md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded'>
+                <div className='relative z-10 lg:w-108 md:p-4 md:bg-light lg:bg-tertiary lg:dark:bg-dark_tertiary md:dark:bg-dark rounded-sm'>
                   <p className='text-left text-primary dark:text-dark_primary'>T.I.M.S. doubles as a blog and social media with a specific purpose of spreading awareness of domestic violence and also being a safe space for those that have been or are victims of abuse of any kind.</p>
                 </div>
                 <ul className='flex flex-row gap-4 font-light_mono dark:font-dark_mono text-secondary dark:text-dark_secondary font-bold'>
@@ -285,9 +283,9 @@ export default function ProjectsPage() {
                   </a>
                 </div>
               </div>
-              <div className='flex justify-center items-center lg:h-[256px] lg:w-[32rem] bg-title/50 dark:bg-dark_title/50 rounded'>
+              <div className='flex justify-center items-center lg:h-[256px] lg:w-lg bg-title/50 dark:bg-dark_title/50 rounded-sm'>
                 <Image 
-                  className='lg:opacity-50 lg:hover:opacity-100 rounded transition linear duration-300 md:w-[40rem] lg-tab:w-[46rem]'
+                  className='lg:opacity-50 lg:hover:opacity-100 rounded-sm transition linear duration-300 md:w-160 lg-tab:w-184'
                   src={tims}
                   width={512}
                   height={420}

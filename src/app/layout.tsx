@@ -1,7 +1,13 @@
 import { space } from 'postcss/lib/list'
 import './globals.css'
-import { Nanum_Gothic, Share_Tech_Mono, Playfair_Display, Space_Mono } from 'next/font/google'
+import { Playfair_Display, Nanum_Gothic, Share_Tech_Mono, Space_Mono } from 'next/font/google'
 import { Providers } from './providers'
+
+const playfair_display = Playfair_Display({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-playfair-display'
+})
 
 const nanum_gothic = Nanum_Gothic({ 
   subsets: ['latin'],
@@ -15,12 +21,6 @@ const share_tech = Share_Tech_Mono({
   display: 'swap',
   variable: '--font-share-tech-mono',
   weight: ['400']
-})
-
-const playfair_display = Playfair_Display({ 
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-playfair-display'
 })
 
 const space_mono = Space_Mono({ 
@@ -42,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${nanum_gothic.variable} ${share_tech.variable} ${playfair_display.variable} ${space_mono.variable} w-screen font-light_display dark:font-dark_display bg-light dark:bg-dark container text-light_display dark:text-dark_display`}>
+      <body className={`${playfair_display.variable} ${nanum_gothic.variable} ${share_tech.variable} ${space_mono.variable} w-screen font-light_display dark:font-dark_display bg-light dark:bg-dark container text-light_display dark:text-dark_display`}>
         <Providers>{children}</Providers>
       </body>
     </html>
