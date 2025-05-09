@@ -44,7 +44,7 @@ export default function Navbar() {
           </div>
           <div className='h-20 lg:hidden flex justify-end items-center'>
             <div className='flex flex-col justify-center items-center gap-8'>
-              <svg className='absolute z-40 w-8 h-8 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" onClick={() => setIsOpen(!isOpen)}>
+              <svg className='absolute z-40 right-6 w-8 h-8 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen === false ? 
                   <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/>
                   :
@@ -82,7 +82,7 @@ export default function Navbar() {
                     </a>
                   </li>
                 </ul>
-                <p className='absolute bottom-8 text-title dark:text-dark_title text-base md:text-lg'><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Designed & Developed by Dunnovative Studios</a></p>
+                <p className='absolute bottom-8 px-4 text-title dark:text-dark_title text-base md:text-lg text-center'><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Designed & Developed by Dunnovative Studios</a></p>
               </ul>
             </div>
           </div>
