@@ -31,7 +31,7 @@ const space_mono = Space_Mono({
 })
 
 export const metadata = {
-  title: 'DJLDev',
+  title: 'Dalyn J. L. Dunn',
   description: 'Version 2 of the portfolio for Dalyn J. L. Dunn.'
 }
 

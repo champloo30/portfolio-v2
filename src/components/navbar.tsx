@@ -39,10 +39,10 @@ export default function Navbar() {
               <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#projects'>Projects</Link></li>
               <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Freelance</a></li>
               <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#contact'>Contact</Link></li>
-              <a href='/DJLD_Resume_24.pdf' target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a>
+              <a href='/DJLD_Resume_050725.pdf' target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a>
             </ul>
           </div>
-          <div className='h-20 lg:hidden mr-12 md:mr-20 lg-tab:mr-[5.5rem] flex justify-end items-center'>
+          <div className='h-20 lg:hidden flex justify-end items-center'>
             <div className='flex flex-col justify-center items-center gap-8'>
               <svg className='absolute z-40 w-8 h-8 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen === false ? 
@@ -55,9 +55,9 @@ export default function Navbar() {
                 <li onClick={() => setIsOpen(false)}><Link href='/'>Home</Link></li>
                 <li onClick={() => setIsOpen(false)}><Link href='/#about'>About</Link></li>
                 <li onClick={() => setIsOpen(false)}><Link href='/#projects'>Projects</Link></li>
-                <li onClick={() => setIsOpen(false)}>Freelance</li>
+                <li onClick={() => setIsOpen(false)}><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Freelance</a></li>
                 <li onClick={() => setIsOpen(false)}><Link href='/#contact'>Contact</Link></li>
-                <li><a href="/DJLD_Resume_24.pdf" target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a></li>
+                <li><a href="/DJLD_Resume_050725.pdf" target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a></li>
                 <ul className='flex flex-row gap-4 mt-8'>
                   <li><ThemeToggler /></li>
                   <li>
