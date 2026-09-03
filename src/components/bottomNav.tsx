@@ -62,7 +62,7 @@ export default function BottomNav() {
               </li>
             </Link>
             {/* freelance */}
-            <a href="https://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://lighthousedirective.com/" target="_blank" rel="noopener noreferrer">
               <li className='relative group w-12 h-12 rounded-full border-2 border-title dark:border-dark_title cursor-pointer hover:bg-title dark:hover:bg-dark_title transition linear duration-300' onClick={() => setIsOpen(false)}>
                 <span className='absolute font-light_display dark:font-dark_display text-title dark:text-dark_title opacity-0 group-hover:opacity-100 -top-8 transition linear duration-300'>Freelance</span>
                 <svg className='relative top-2 left-2 w-7 h-7 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M70-120q-12.75 0-21.375-8.675Q40-137.351 40-150.175 40-163 48.625-171.5T70-180h820q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T890-120H70Zm70-120q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h680q24 0 42 18t18 42v480q0 24-18 42t-42 18H140Zm0-60h680v-480H140v480Zm0 0v-480 480Z"/></svg>
@@ -76,7 +76,7 @@ export default function BottomNav() {
               </li>
             </Link>
             {/* resume */}
-            <a href='/DJLD_Resume_050725.pdf' target="_blank" rel="noopener noreferrer">
+            <a href='/DJLD_Resume_090226.pdf' target="_blank" rel="noopener noreferrer">
               <li className='relative group w-12 h-12 rounded-full border-2 border-title dark:border-dark_title cursor-pointer hover:bg-title dark:hover:bg-dark_title transition linear duration-300' onClick={() => setIsOpen(false)}>
                 <span className='absolute font-light_display dark:font-dark_display text-title dark:text-dark_title opacity-0 group-hover:opacity-100 -top-8 transition linear duration-300'>Resume</span>
                 <svg className='relative top-1.5 left-1.5 w-8 h-8 fill-title dark:fill-dark_title group-hover:fill-light dark:group-hover:fill-dark transition linear duration-300' xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M277-279h275v-60H277v60Zm0-171h406v-60H277v60Zm0-171h406v-60H277v60Zm-97 501q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"/></svg>
@@ -86,7 +86,7 @@ export default function BottomNav() {
         : null}
       </div>
       <div className='fixed inset-x-0 bottom-2 flex justify-center'>
-        <a href="https://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer" className='text-secondary dark:text-dark_secondary font-light-display dark:font-dark_display hover:text-title dark:hover:text-dark_title transiton linear duration-300'>Designed & Developed by Dunnovative Studios</a>
+        <a href="https://lighthousedirective.com/" target="_blank" rel="noopener noreferrer" className='text-secondary dark:text-dark_secondary font-light-display dark:font-dark_display hover:text-title dark:hover:text-dark_title transiton linear duration-300'>Designed & Developed by Lighthouse Directive</a>
       </div>
     </div>
   )

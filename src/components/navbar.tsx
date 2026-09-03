@@ -37,9 +37,9 @@ export default function Navbar() {
             <ul className="flex flex-row gap-8 text-lg items-center">
               <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#about'>About</Link></li>
               <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#projects'>Projects</Link></li>
-              <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Freelance</a></li>
+              <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><a href="http://lighthousedirective.com/" target="_blank" rel="noopener noreferrer">Freelance</a></li>
               <li className="cursor-pointer hover:border-b-2 hover:border-title dark:hover:border-dark_title transition linear duration-300"><Link href='/#contact'>Contact</Link></li>
-              <a href='/DJLD_Resume_050725.pdf' target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a>
+              <a href='/DJLD_Resume_090226.pdf' target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a>
             </ul>
           </div>
           <div className='h-20 lg:hidden flex justify-end items-center'>
@@ -55,9 +55,9 @@ export default function Navbar() {
                 <li onClick={() => setIsOpen(false)}><Link href='/'>Home</Link></li>
                 <li onClick={() => setIsOpen(false)}><Link href='/#about'>About</Link></li>
                 <li onClick={() => setIsOpen(false)}><Link href='/#projects'>Projects</Link></li>
-                <li onClick={() => setIsOpen(false)}><a href="http://dunnovativestudios.com/" target="_blank" rel="noopener noreferrer">Freelance</a></li>
+                <li onClick={() => setIsOpen(false)}><a href="http://lighthousedirective.com/" target="_blank" rel="noopener noreferrer">Freelance</a></li>
                 <li onClick={() => setIsOpen(false)}><Link href='/#contact'>Contact</Link></li>
-                <li><a href="/DJLD_Resume_050725.pdf" target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a></li>
+                <li><a href="/DJLD_Resume_090226.pdf" target="_blank" rel="noopener noreferrer"><Button buttonName='Resume' /></a></li>
                 <ul className='flex flex-row gap-4 mt-8'>
                   <li><ThemeToggler /></li>
                   <li>
